@@ -1,0 +1,6 @@
+framework module Pods_PickerViewSaiUITests {
+  umbrella header "Pods-PickerViewSaiUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

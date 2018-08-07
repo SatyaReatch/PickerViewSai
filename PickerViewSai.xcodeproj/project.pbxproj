@@ -14,6 +14,9 @@
 		18E2EF1F2119765E005276A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E2EF1D2119765E005276A5 /* LaunchScreen.storyboard */; };
 		18E2EF2A2119765F005276A5 /* PickerViewSaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E2EF292119765F005276A5 /* PickerViewSaiTests.swift */; };
 		18E2EF352119765F005276A5 /* PickerViewSaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E2EF342119765F005276A5 /* PickerViewSaiUITests.swift */; };
+		621FECD2A84DE0D3E959E0BE /* Pods_PickerViewSaiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A8E2A8966B79E7010A3C9C /* Pods_PickerViewSaiTests.framework */; };
+		67D6DF8696F93AF363C4A71F /* Pods_PickerViewSai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1691F6119475AF9D8D21E0 /* Pods_PickerViewSai.framework */; };
+		B583D7B5640316381F4A2326 /* Pods_PickerViewSaiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE823DDB8C25DCED795367F /* Pods_PickerViewSaiUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,15 @@
 		18E2EF302119765F005276A5 /* PickerViewSaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickerViewSaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E2EF342119765F005276A5 /* PickerViewSaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewSaiUITests.swift; sourceTree = "<group>"; };
 		18E2EF362119765F005276A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A99C10589205E6757ED601E /* Pods-PickerViewSaiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickerViewSaiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PickerViewSaiTests/Pods-PickerViewSaiTests.release.xcconfig"; sourceTree = "<group>"; };
+		234482FE6EB82C366B1A8CE3 /* Pods-PickerViewSaiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickerViewSaiUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PickerViewSaiUITests/Pods-PickerViewSaiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		47C29C87DEEFD0FBAF282542 /* Pods-PickerViewSaiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickerViewSaiUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PickerViewSaiUITests/Pods-PickerViewSaiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		481928BEECFD1495B449BF0C /* Pods-PickerViewSai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickerViewSai.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PickerViewSai/Pods-PickerViewSai.debug.xcconfig"; sourceTree = "<group>"; };
+		9047BF7F872D14F4C7C7EE78 /* Pods-PickerViewSai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickerViewSai.release.xcconfig"; path = "Pods/Target Support Files/Pods-PickerViewSai/Pods-PickerViewSai.release.xcconfig"; sourceTree = "<group>"; };
+		9EE823DDB8C25DCED795367F /* Pods_PickerViewSaiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickerViewSaiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDFEB6C5237C3E579A33B2B2 /* Pods-PickerViewSaiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickerViewSaiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PickerViewSaiTests/Pods-PickerViewSaiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA1691F6119475AF9D8D21E0 /* Pods_PickerViewSai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickerViewSai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4A8E2A8966B79E7010A3C9C /* Pods_PickerViewSaiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickerViewSaiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67D6DF8696F93AF363C4A71F /* Pods_PickerViewSai.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				621FECD2A84DE0D3E959E0BE /* Pods_PickerViewSaiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B583D7B5640316381F4A2326 /* Pods_PickerViewSaiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				18E2EF282119765F005276A5 /* PickerViewSaiTests */,
 				18E2EF332119765F005276A5 /* PickerViewSaiUITests */,
 				18E2EF1221197658005276A5 /* Products */,
+				EAF0EFA58DF9482CB39EEDC7 /* Pods */,
+				95C7B42E5A0A587FA6E05B1E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = PickerViewSaiUITests;
 			sourceTree = "<group>";
 		};
+		95C7B42E5A0A587FA6E05B1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA1691F6119475AF9D8D21E0 /* Pods_PickerViewSai.framework */,
+				D4A8E2A8966B79E7010A3C9C /* Pods_PickerViewSaiTests.framework */,
+				9EE823DDB8C25DCED795367F /* Pods_PickerViewSaiUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAF0EFA58DF9482CB39EEDC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				481928BEECFD1495B449BF0C /* Pods-PickerViewSai.debug.xcconfig */,
+				9047BF7F872D14F4C7C7EE78 /* Pods-PickerViewSai.release.xcconfig */,
+				BDFEB6C5237C3E579A33B2B2 /* Pods-PickerViewSaiTests.debug.xcconfig */,
+				1A99C10589205E6757ED601E /* Pods-PickerViewSaiTests.release.xcconfig */,
+				47C29C87DEEFD0FBAF282542 /* Pods-PickerViewSaiUITests.debug.xcconfig */,
+				234482FE6EB82C366B1A8CE3 /* Pods-PickerViewSaiUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18E2EF392119765F005276A5 /* Build configuration list for PBXNativeTarget "PickerViewSai" */;
 			buildPhases = (
+				BE10040E5A5735706CE2AE6D /* [CP] Check Pods Manifest.lock */,
 				18E2EF0D21197658005276A5 /* Sources */,
 				18E2EF0E21197658005276A5 /* Frameworks */,
 				18E2EF0F21197658005276A5 /* Resources */,
+				F74BE91960E9C0C3454D14FB /* [CP] Embed Pods Frameworks */,
+				752B145B01F2F0789D5E41F2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18E2EF3C2119765F005276A5 /* Build configuration list for PBXNativeTarget "PickerViewSaiTests" */;
 			buildPhases = (
+				0B7E0BB64786313F8638C69B /* [CP] Check Pods Manifest.lock */,
 				18E2EF212119765F005276A5 /* Sources */,
 				18E2EF222119765F005276A5 /* Frameworks */,
 				18E2EF232119765F005276A5 /* Resources */,
+				E416227AB8A93E2EF8F9E566 /* [CP] Embed Pods Frameworks */,
+				55CB8B954E12634D4615CA20 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18E2EF3F2119765F005276A5 /* Build configuration list for PBXNativeTarget "PickerViewSaiUITests" */;
 			buildPhases = (
+				DCC055FA46333F08A881B40F /* [CP] Check Pods Manifest.lock */,
 				18E2EF2C2119765F005276A5 /* Sources */,
 				18E2EF2D2119765F005276A5 /* Frameworks */,
 				18E2EF2E2119765F005276A5 /* Resources */,
+				B1310384EFD13E627D869BCC /* [CP] Embed Pods Frameworks */,
+				32B59BE6F0347381E379727B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +299,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B7E0BB64786313F8638C69B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PickerViewSaiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32B59BE6F0347381E379727B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PickerViewSaiUITests/Pods-PickerViewSaiUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55CB8B954E12634D4615CA20 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PickerViewSaiTests/Pods-PickerViewSaiTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		752B145B01F2F0789D5E41F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PickerViewSai/Pods-PickerViewSai-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1310384EFD13E627D869BCC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PickerViewSaiUITests/Pods-PickerViewSaiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE10040E5A5735706CE2AE6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PickerViewSai-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCC055FA46333F08A881B40F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PickerViewSaiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E416227AB8A93E2EF8F9E566 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PickerViewSaiTests/Pods-PickerViewSaiTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F74BE91960E9C0C3454D14FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PickerViewSai/Pods-PickerViewSai-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/APJTextPickerView/APJTextPickerView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/APJTextPickerView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PickerViewSai/Pods-PickerViewSai-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18E2EF0D21197658005276A5 /* Sources */ = {
@@ -428,15 +627,13 @@
 		};
 		18E2EF3A2119765F005276A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 481928BEECFD1495B449BF0C /* Pods-PickerViewSai.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZV75ZGJ8B;
 				INFOPLIST_FILE = PickerViewSai/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.valuelabs.PickerViewSai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -446,15 +643,13 @@
 		};
 		18E2EF3B2119765F005276A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9047BF7F872D14F4C7C7EE78 /* Pods-PickerViewSai.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZV75ZGJ8B;
 				INFOPLIST_FILE = PickerViewSai/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.valuelabs.PickerViewSai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -464,16 +659,13 @@
 		};
 		18E2EF3D2119765F005276A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDFEB6C5237C3E579A33B2B2 /* Pods-PickerViewSaiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PickerViewSaiTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.valuelabs.PickerViewSaiTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -484,16 +676,13 @@
 		};
 		18E2EF3E2119765F005276A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A99C10589205E6757ED601E /* Pods-PickerViewSaiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PickerViewSaiTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.valuelabs.PickerViewSaiTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -504,15 +693,12 @@
 		};
 		18E2EF402119765F005276A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47C29C87DEEFD0FBAF282542 /* Pods-PickerViewSaiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PickerViewSaiUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.valuelabs.PickerViewSaiUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -523,15 +709,12 @@
 		};
 		18E2EF412119765F005276A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 234482FE6EB82C366B1A8CE3 /* Pods-PickerViewSaiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PickerViewSaiUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.valuelabs.PickerViewSaiUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

@@ -1,23 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Jlb-VZ-JCR">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="wZT-D5-vDg">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController id="Jlb-VZ-JCR" customClass="ViewController" customModule="APJTextPickerView_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Nd6-xf-z2O"/>
+                        <viewControllerLayoutGuide type="bottom" id="fKI-PO-oQr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dYY-6Y-rlD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date picker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OZ9-eL-U09">
+                                <rect key="frame" x="16" y="50" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Select Date" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tAN-t1-Ngy" customClass="APJTextPickerView" customModule="APJTextPickerView">
+                                <rect key="frame" x="16" y="76" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time picker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Hd-Dg-GUI">
+                                <rect key="frame" x="16" y="136" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Select Time" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ori-Hh-pQ4" customClass="APJTextPickerView" customModule="APJTextPickerView">
+                                <rect key="frame" x="16" y="162" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Strings picker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qbM-au-u5q">
+                                <rect key="frame" x="16" y="222" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Select City" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="C6B-23-uVt" customClass="APJTextPickerView" customModule="APJTextPickerView">
+                                <rect key="frame" x="16" y="248" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <constraints>
+                            <constraint firstItem="qbM-au-u5q" firstAttribute="top" secondItem="ori-Hh-pQ4" secondAttribute="bottom" constant="30" id="8RZ-7b-bU5"/>
+                            <constraint firstItem="C6B-23-uVt" firstAttribute="leading" secondItem="dYY-6Y-rlD" secondAttribute="leadingMargin" id="GSQ-q0-gpR"/>
+                            <constraint firstItem="qbM-au-u5q" firstAttribute="trailing" secondItem="dYY-6Y-rlD" secondAttribute="trailingMargin" id="IxF-e7-tFJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tAN-t1-Ngy" secondAttribute="trailing" id="Jsj-6k-ckn"/>
+                            <constraint firstItem="ori-Hh-pQ4" firstAttribute="leading" secondItem="dYY-6Y-rlD" secondAttribute="leadingMargin" id="LkX-Hq-T1P"/>
+                            <constraint firstItem="ori-Hh-pQ4" firstAttribute="top" secondItem="6Hd-Dg-GUI" secondAttribute="bottom" constant="5" id="NBD-nH-pg8"/>
+                            <constraint firstItem="qbM-au-u5q" firstAttribute="leading" secondItem="dYY-6Y-rlD" secondAttribute="leadingMargin" id="Okr-bY-Da6"/>
+                            <constraint firstItem="6Hd-Dg-GUI" firstAttribute="trailing" secondItem="dYY-6Y-rlD" secondAttribute="trailingMargin" id="RYI-xZ-mVr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OZ9-eL-U09" secondAttribute="trailing" id="UTZ-z7-0jr"/>
+                            <constraint firstItem="ori-Hh-pQ4" firstAttribute="trailing" secondItem="dYY-6Y-rlD" secondAttribute="trailingMargin" id="Ucv-0J-dq1"/>
+                            <constraint firstItem="6Hd-Dg-GUI" firstAttribute="top" secondItem="tAN-t1-Ngy" secondAttribute="bottom" constant="30" id="aMd-Bh-5ZO"/>
+                            <constraint firstItem="6Hd-Dg-GUI" firstAttribute="leading" secondItem="dYY-6Y-rlD" secondAttribute="leadingMargin" id="btZ-TD-GLf"/>
+                            <constraint firstItem="tAN-t1-Ngy" firstAttribute="leading" secondItem="dYY-6Y-rlD" secondAttribute="leadingMargin" id="cae-Ho-ROd"/>
+                            <constraint firstItem="OZ9-eL-U09" firstAttribute="top" secondItem="Nd6-xf-z2O" secondAttribute="bottom" constant="30" id="ftI-Jy-Awd"/>
+                            <constraint firstItem="OZ9-eL-U09" firstAttribute="leading" secondItem="dYY-6Y-rlD" secondAttribute="leadingMargin" id="hRY-jM-LWK"/>
+                            <constraint firstItem="C6B-23-uVt" firstAttribute="trailing" secondItem="dYY-6Y-rlD" secondAttribute="trailingMargin" id="uAz-wg-LPr"/>
+                            <constraint firstItem="C6B-23-uVt" firstAttribute="top" secondItem="qbM-au-u5q" secondAttribute="bottom" constant="5" id="wCx-Hy-C56"/>
+                            <constraint firstItem="tAN-t1-Ngy" firstAttribute="top" secondItem="OZ9-eL-U09" secondAttribute="bottom" constant="5" id="yRb-SP-nTd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="KiI-f9-nk3"/>
                     </view>
+                    <connections>
+                        <outlet property="textDatePickerView" destination="tAN-t1-Ngy" id="WOd-7w-90k"/>
+                        <outlet property="textStringsPickerView" destination="C6B-23-uVt" id="7pT-tg-Raj"/>
+                        <outlet property="textTimePickerView" destination="ori-Hh-pQ4" id="Wje-7f-hS4"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Axy-Wd-ZUb" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
